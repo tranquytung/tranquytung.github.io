@@ -1,0 +1,117 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-wrap{
+    width: 100%;
+    height: 800px;
+    background: url("../img/slide-doctor-bg.jpg") no-repeat;
+    overflow: hidden;
+}
+
+.contact_left{
+    margin-top: 20px;
+    float: left;
+    margin-left: 100px;
+    list-style: none;
+    cursor: pointer;
+    color:#13bfb1;
+}
+.have{
+    color: white;
+}
+.contact-right{
+    margin-top: 20px;
+    float: right;
+    margin-right: 100px;
+    list-style: none;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact_details .contact_left li{
+    display:inline;
+}
+.contact_details .contact-right li{
+    display: inline;
+}
+.topbar{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    background: white;
+    width: 85%;
+    z-index: 5;
+}
+.logo {
+    float: left;
+    padding: 20px 20px;
+}
+.menu_warps{
+    float: right;
+    margin-right: 30%;
+    padding: 20px 20px;
+}
+.menu_warps .menu ul li{
+    display: inline;
+    padding: 10px 20px;
+    border-right: solid 1px grey;
+}
+.menu_warps .menu ul li a{
+  color: #777;
+}
+.topbar a{
+    text-decoration: none;
+}
+.cogai{
+    position: absolute;
+    z-index: 2;
+    margin-top:50px;
+    margin-left: 700px;
+    animation: dituduoilen 1s forwards;
+}
+@-webkit-keyframes dituduoilen {
+    0%{transform: translateY(600px);opacity: 0}
+    100%{transform: translateY(0px);opacity: 1}
+}
+.text{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 300px;
+    color: #280b08;
+    opacity: 0;
+    animation: tutraivao 1s forwards;
+    animation-delay: 1s;
+}
+@-webkit-keyframes tutraivao {
+    0%{transform: translateX(-400px);opacity: 0}
+    100%{transform: translateX(0px);opacity: 1}
+}
+.text_big{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.text_big:first-line{
+    color: #ffd548;
+}
+.text_small{
+    opacity: 0;
+    animation: tutraivao 1s forwards;
+    animation-delay: 1s;
+}
+.buuton{
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 400px;
+    width: 150px;
+    background: rosybrown;
+    text-align: center;
+    padding: 10px 10px;
+    border-radius: 3px;
+    opacity: 0;
+    animation: tutraivao 1s forwards;
+    animation-delay: 2s;
+}
+.buuton:hover{
+    background:#75ffb5;
+}
